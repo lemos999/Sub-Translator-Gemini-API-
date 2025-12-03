@@ -19,20 +19,20 @@ Unlike general text translators that often break timecodes or formatting tags, t
 
 ### 🚀 Key Features
 
-#### ✅ 1. Metadata & Structure Integrity (Stable)
+#### ✅ 1. Metadata & Structure Integrity 
 The system utilizes a rigid parsing algorithm to isolate metadata from translatable text.
 - **Timecode Preservation:** Ensures exact synchronization with the video source; no drift or offset occurs during translation.
 - **Tag Protection:** HTML-style tags (e.g., `<i>`, `<b>`, `<font>`) and positioning identifiers are excluded from the translation engine's processing scope, preventing syntax corruption.
 - **Stability:** The generated output is syntactically perfect, ensuring zero playback errors in media players like VLC or IINA.
 
-#### 🚧 2. Narrative Flow & Context (Work in Progress)
+#### 🚧 2. Narrative Flow & Context
 While the tool successfully translates individual lines, handling the "Narrative Context" across multiple dialogue lines is a known limitation in the current build.
 - **Current State:** Translation operates primarily on a sentence-by-sentence basis. This may result in literal translations that miss the broader situational context or speaker tone.
 - **Roadmap:** Future updates will implement a "Context Window" algorithm to analyze surrounding dialogues before translating, improving cohesion and narrative flow.
 
 ---
 
-## ⚙️ Installation & Usage (English)
+## ⚙️ Installation & Usage
 
 ### 1. Prerequisites
 - **Python 3.8+**
@@ -76,7 +76,7 @@ python app.py input_movie.srt
 ---
 ---
 
-## 📖 프로젝트 소개 (Korean)
+## 📖 프로젝트 소개 
 
 **Subtitle Translator**는 자막 파일(SRT/VTT)의 구조적 메타데이터를 완벽하게 보존하면서 번역을 수행하는 파이썬 기반 자동화 도구입니다.
 
@@ -90,20 +90,20 @@ python app.py input_movie.srt
 
 ### 🚀 핵심 기능
 
-#### ✅ 1. 메타데이터 및 구조적 무결성 (Stable)
+#### ✅ 1. 메타데이터 및 구조적 무결성 
 이 시스템은 번역 대상 텍스트와 메타데이터를 분리하는 엄격한 파싱 알고리즘을 사용합니다.
 - **타임코드 보존:** 영상 소스와의 정확한 싱크를 보장하며, 번역 과정에서 시간 밀림 현상이 발생하지 않습니다.
 - **태그 보호:** `<i>`, `<b>`, `<font>` 등 스타일 태그와 위치 식별자를 번역 엔진의 처리 범위에서 제외하여 구문 오류를 방지합니다.
 - **안정성:** 생성된 결과물은 문법적으로 완벽한 자막 포맷을 유지하며, VLC나 IINA 등 플레이어에서 재생 오류가 없습니다.
 
-#### 🚧 2. 서사적 흐름 및 맥락 처리 (Work in Progress)
+#### 🚧 2. 서사적 흐름 및 맥락 처리
 현재 버전은 개별 라인 번역에는 성공적이나, 여러 대사에 걸친 "서사적 맥락(Narrative Context)" 처리는 아직 개발 단계에 있습니다.
 - **현재 상태:** 번역이 주로 문장 단위로 독립적으로 수행됩니다. 이로 인해 상황적 맥락이나 화자의 어조를 놓치는 직역투가 발생할 수 있습니다.
 - **향후 계획:** 주변 대사를 함께 분석하여 번역을 수행하는 "Context Window" 알고리즘을 도입하여, 문맥적 연결성과 자연스러운 흐름을 개선할 예정입니다.
 
 ---
 
-## ⚙️ 설치 및 사용 방법 (Korean)
+## ⚙️ 설치 및 사용 방법 
 
 ### 1. 사전 요구 사항
 - **Python 3.8 이상**
