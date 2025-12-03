@@ -80,7 +80,7 @@ python app.py input_movie.srt
 
 **Subtitle Translator**는 자막 파일(SRT/VTT)의 구조적 메타데이터를 완벽하게 보존하면서 번역을 수행하는 파이썬 기반 자동화 도구입니다.
 
-이 프로젝트의 핵심 철학은 **"구조 우선, 내용 개선(Structure First, Content Iteration)"**입니다.
+이 프로젝트의 핵심 철학은 "구조 우선, 내용 개선(Structure First, Content Iteration)"입니다.
 일반적인 번역기가 타임코드나 포맷팅 태그를 손상시키는 문제를 해결하기 위해, 이 도구는 자막의 메타데이터 무결성을 최우선으로 보장합니다. 현재 버전은 기술적 정밀함(메타데이터)에 강점이 있으며, 서사적 맥락(Context)과 뉘앙스 처리는 향후 고도화될 예정입니다.
 
 ### 🎯 프로젝트 범위
@@ -153,8 +153,5 @@ python app.py input_movie.srt
 - **GitHub:** [lemos999](https://github.com/lemos999)
 
 **Project Link**: [https://github.com/lemos999/subtitle-translator](https://github.com/lemos999/subtitle-translator)
-```
-
-***
 
 [2025.12.03 (Wed) 15:01:25]
