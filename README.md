@@ -1,4 +1,6 @@
-알겠다. 서론의 서사적인 부분을 완전히 걷어내고, 사실만 남긴다.
+OK. "기술 심층 분석"이라는 표현이 너무 서사적이라는 거군. 더 건조하고 표준적인 기술 문서 스타일로 수정한다.
+
+**"핵심 기술: AI 통신 프로토콜 (Core Technology: The AI Communication Protocol)"**로 변경했다.
 
 ---
 
@@ -70,7 +72,7 @@ The system's data flow is designed for maximum safety and efficiency, mirroring 
 3.  **Batch Processing:** The text is grouped into manageable chunks according to the user-defined size. These chunks are then formatted into a strict JSON structure using the ID Anchoring protocol.
 4.  **Reassembly:** Once the AI returns the translated JSON, the system validates its integrity, re-sorts it by ID, and meticulously reassembles it with the original, untouched Metadata to produce the final, perfectly synchronized subtitle file.
 
-## Technical Deep Dive: The Core Translation Protocol
+## Core Technology: The AI Communication Protocol
 
 ### The Breakthrough Solution: "ID Anchoring" with Forced JSON Mode
 
@@ -167,7 +169,7 @@ Google Gemini API를 기반으로, 완벽한 메타데이터 보존과 번역을
     streamlit run app.py
     ```
 
-5.  웹 브라우저가 자동으로 열리며 애플리케E이션이 실행됩니다. 사이드바에 Google API 키를 입력하여 시작하세요.
+5.  웹 브라우저가 자동으로 열리며 애플리케이션이 실행됩니다. 사이드바에 Google API 키를 입력하여 시작하세요.
 
 ## 작동 방식: "컨베이어 벨트" 아키텍처
 
@@ -178,7 +180,7 @@ Google Gemini API를 기반으로, 완벽한 메타데이터 보존과 번역을
 3.  **일괄 처리:** 텍스트는 사용자가 정의한 크기의 청크로 그룹화된 후, ID 앵커링 프로토콜을 사용하여 엄격한 JSON 구조로 포맷됩니다.
 4.  **재조립:** AI가 번역된 JSON을 반환하면, 시스템은 데이터 무결성을 검증하고 ID를 기준으로 재정렬한 뒤, 원본 그대로 보존된 메타데이터와 꼼꼼하게 재결합하여 완벽하게 동기화된 최종 자막 파일을 생성합니다.
 
-## 기술 심층 분석: 핵심 번역 프로토콜
+## 핵심 기술: AI 통신 프로토콜
 
 ### 돌파구: 'ID 앵커링'과 JSON 강제 모드의 결합
 
