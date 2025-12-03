@@ -153,5 +153,3 @@ python app.py input_movie.srt
 - **GitHub:** [lemos999](https://github.com/lemos999)
 
 **Project Link**: [https://github.com/lemos999/subtitle-translator](https://github.com/lemos999/subtitle-translator)
-
-[2025.12.03 (Wed) 15:01:25]
