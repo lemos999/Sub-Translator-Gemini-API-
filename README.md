@@ -5,7 +5,7 @@
 
 ---
 
-## 📖 Introduction (English)
+## 📖 Introduction
 
 **Subtitle Translator** is a Python-based automation tool designed to translate subtitle files (SRT/VTT) while strictly preserving structural metadata.
 
