@@ -1,9 +1,3 @@
-OK. "기술 심층 분석"이라는 표현이 너무 서사적이라는 거군. 더 건조하고 표준적인 기술 문서 스타일로 수정한다.
-
-**"핵심 기술: AI 통신 프로토콜 (Core Technology: The AI Communication Protocol)"**로 변경했다.
-
----
-
 # Context-Aware Subtitle Translator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
