@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configuration
-Create a `.env` file in the root directory to store your API keys securely. **Do not hardcode keys in `app.py`.**
+Create a `.env` file in the root directory to store your API keys securely.
 
 ```ini
 # .env file
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. 환경 설정
-루트 디렉토리에 `.env` 파일을 생성하여 API 키를 설정합니다. **절대 소스코드(`app.py`)에 키를 직접 입력하지 마십시오.**
+루트 디렉토리에 `.env` 파일을 생성하여 API 키를 설정합니다. 
 
 ```ini
 # .env 예시
